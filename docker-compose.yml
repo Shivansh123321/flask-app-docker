@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  flaskapp:
+    build: .
+    image: flaskapp:latest
+    container_name: flaskapp
+    network_mode: host
