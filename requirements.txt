@@ -1,1 +1,2 @@
 Flask==2.2.3
+Blueprint==3.4.2
