@@ -7,7 +7,7 @@ health_bp = Blueprint('health', __name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World! This is version 2'
+    return 'Hello, World! This is version 2 - with health check'
 
 @health_bp.route('/healthcheck')
 def health_check():
