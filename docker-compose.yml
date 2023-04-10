@@ -3,7 +3,7 @@ version: '3'
 services:
   flaskapp:
     build: .
-    image: flaskapp:latest
+    image: flaskapp:v3
     container_name: flaskapp
     ports:
       - "8081:8080"
